@@ -16,11 +16,11 @@ def panagram(s):
             return False
     return True        
     
-def Average(lst):
-    sum=0
-    if len(lst) == 0:
+def average(lst):
+    if not  lst:
         return None
+    acc = 0
     for i in lst:
-        sum= sum+i
-    return sum/len(lst) 
+        acc = acc +i   # acc: accumulator
+    return acc/len(lst) 
      

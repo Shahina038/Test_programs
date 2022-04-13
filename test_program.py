@@ -19,13 +19,16 @@ def testcase1():
     assert ret == False
 
 def test_average_positive():
-        ret = Average([10,20, 30])
+        ret = average([10,20, 30])
         assert ret == 20
 
 def test_average_negetive():
-        ret = Average([-10, -20, -30])
+        ret = average([-10, -20, -30])
         assert ret == -20
         
 def test_average_none():
-        ret = Average([])
+        ret = average([])
         assert ret == None 
+
+
+        
